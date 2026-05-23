@@ -13,6 +13,8 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
+            "outputPath": "dist/auto-ponto-dashboard",
+            "index": "src/index.html",
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
@@ -58,5 +60,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "1a74ac39-54a2-4616-9413-55c350b2d697"
   }
 }
